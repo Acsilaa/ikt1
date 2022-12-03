@@ -1,0 +1,40 @@
+html {
+    min-width: 100%;
+    min-height: 100%;
+    background: url("./alap.jpg") repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: min(43em, 100vw);
+}
+footer{
+    width: 100%;
+    position: relative;
+}
+footer p{
+    position: absolute;
+    right: 0;
+}
+.cont{
+    
+    border-top: .5em solid gray;
+    border-bottom: .5em solid gray;
+    padding: 1em 0;
+}
+h1, h2{
+    text-align: center;
+}
+h2{
+    margin-bottom: 2em;
+}
+.reasons{
+    margin-left: 2em;
+}
+#f-img, #m-img{
+    float: right;
+    width: 9em;
+}
